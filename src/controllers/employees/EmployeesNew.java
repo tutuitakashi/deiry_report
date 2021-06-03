@@ -14,7 +14,7 @@ import models.Employee;
 /**
  * Servlet implementation class EmployeesNew
  */
-@WebServlet(name = "employees/new", urlPatterns = { "/employees/new" })
+@WebServlet("/employees/new")
 public class EmployeesNew extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
