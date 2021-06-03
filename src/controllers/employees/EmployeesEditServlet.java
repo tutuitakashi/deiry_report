@@ -16,7 +16,7 @@ import utils.DBUtil;
 /**
  * Servlet implementation class EmployeesEditServlet
  */
-@WebServlet("/EmployeesEditServlet")
+@WebServlet("/employees/edit")
 public class EmployeesEditServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
